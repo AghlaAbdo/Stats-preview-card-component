@@ -83,10 +83,6 @@ img {
     color: hsl(277, 64%, 61%);
 }
 @media (max-width: 800px) {
-    body {
-        display: block;
-        height: auto;
-    }
     .container {
         flex-direction: column;
         margin: 50px 15px 50px 15px;
