@@ -58,15 +58,15 @@ span {
 }
 .right {
     width: 50%;
-    background-color: hsl(277, 100%, 25%);
+    background-color: hsl(277, 64%, 61%);
     border-radius: 0 5px 5px 0;
 }
 img {
     width: 100%;
-    opacity: .45;
     height: 100%;
+    mix-blend-mode:multiply;
     object-fit: cover;
-    border-radius: 0 5px 5px 0;
+    opacity: .75;
 }
 .mobile-image {
     display: none;
@@ -83,7 +83,8 @@ img {
     color: hsl(277, 64%, 61%);
 }
 @media (max-width: 800px) {
-    .container {
+    .container
+    {
         flex-direction: column;
         margin: 50px 15px 50px 15px;
     }
@@ -103,7 +104,6 @@ img {
     }
     .mobile-image {
         display: block;
-        border-radius: 5px 5px 0 0;
     }
     h1 {
         font-size: 1.6rem;
